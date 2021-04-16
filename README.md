@@ -23,12 +23,12 @@ Clone the project, open the file in desired browser and enjoy.
 4.You can adjust the volume and layer sounds
 
 
-##Folder breakdown
+## Folder breakdown
 
-###index.html (not a folder)
+### index.html (not a folder)
 This is what is used to view and use the Minecraft Jukebox.
 
-###assets
+### assets
 Authoring 2 - Interactive Music Mixer.pdf
 This is a file that has the project instructions.
 
