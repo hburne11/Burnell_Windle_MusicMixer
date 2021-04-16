@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Minecraft Music Mixer</title>
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<link href="css/reset.css" rel="stylesheet" type="text/css">
+	</head>
+<body>
+
+		<div class="siteContainer">
+
+		<header id="mainHeader">
+
+			<h1>Minecraft Music Mixer</h1>
+			<h2>Drag the disc into the jukebox to hear the sound effect!</h2>
+
+		</header>
+	<main>
+			<section id="jukebox">
+				<img src="images/jukebox.png" alt="minecraft jukebox" width="305" height="305">
+
+</section>
+<section class="audioControls">
+	<a id="playButton" class="button">PLAY</a>
+	<a id="pauseButton" class="button">STOP</a>
+	<a id="rewindButton" class="button">REWIND</a>
+<input id="volumeControl" type="range" min="0" max="100" step="1">
+</section>
+<audio id="audio" controls>
+	<audio src="audio/track1.mp3"></audio>
+	<audio src="audio/track2.mp3"></audio>
+	<audio src="audio/track3.mp3"></audio>
+	<audio src="audio/track4.mp3"></audio>
+	<audio src="audio/track5.mp3"></audio>
+	<audio src="audio/track6.mp3"></audio>
+</audio>
+
+
+	<section class="discs">
+
+
+						<div class="disc1">
+								<img id="track1" src="images/disc_creeper.png" alt="minecraft disc" width="200" height="150">
+
+						</div>
+
+						<div class="disc2">
+								<img id="track2" src="images/disc_spider.png" alt="minecraft disc" width="200" height="150">
+
+					</div>
+
+						<div class="disc3">
+								<img id="track3" src="images/disc_zombie.png" alt="minecraft disc" width="200" height="150">
+
+					</div>
+
+						<div class="disc4">
+								<img id="track4" src="images/disc_skeleton.png" alt="minecraft disc" width="200" height="150">
+
+					</div>
+
+
+						<div class="disc5">
+								<img id="track5" src="images/disc_ghast.png" alt="minecraft disc" width="200" height="150">
+
+					</div>
+
+
+						<div class="disc6">
+								<img id="track6" src="images/disc_blaze.png" alt="minecraft disc" width="200" height="150">
+
+					</div>
+
+
+</section>
+</main>
+</div>
+
+
+
+
+		<script src="js/main.js"></script>
+
+
+</body>
+</html>
